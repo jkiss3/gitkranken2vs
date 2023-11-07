@@ -12,5 +12,5 @@ class Dog:
         print(f"The Dog's type is {self.Breed} and his age is {self.Age}")
 
  
-kutya1 = Dog("pumi","40")
+kutya1 = Dog("kuvasz","42")
 kutya1.printing()
