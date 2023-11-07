@@ -3,7 +3,7 @@ import pandas as pd
 a = 2
 c = 3
 print(a+c)
-
+# Initiate a Dog Class
 class Dog:
     def __init__(self,Breed,Age):
         self.Breed = Breed
@@ -12,5 +12,5 @@ class Dog:
         print(f"The Dog's type is {self.Breed} and his age is {self.Age}")
 
  
-kutya1 = Dog("puli","39")
+kutya1 = Dog("pumi","40")
 kutya1.printing()
