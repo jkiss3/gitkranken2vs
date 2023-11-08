@@ -29,7 +29,3 @@ kutya2.ugat("Vau")
 kutya1.ertek()
 kutya2.ertek()
 print(c)
-
-
-
-
