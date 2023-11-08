@@ -14,12 +14,20 @@ class Dog:
         print(f"The Dog's type is {self.Breed} and his age is {self.Age}")
     def ugat(self,hang):
         print(f"The Dog's type is {self.Breed} and his age is {self.Age} and gives the sound {hang}.")
-
+    def ertek(self):
+        if self.Age > 20:
+            print(f"this dog is a {self.Breed} type of dog, and is a senior dog")
+        elif self.Age  > 10:
+            print(f"this dog is a {self.Breed} type of dog, and is a middle dog")
+        else:
+            print(f"this dog is a {self.Breed} type of dog, and is a younger dog")
  
-kutya1 = Dog("kuvasz",42)
+kutya1 = Dog("kuvasz",5)
 kutya1.printing()
-kutya2 = Dog("puli",11)
+kutya2 = Dog("puli",42)
 kutya2.ugat("Vau")
+kutya1.ertek()
+kutya2.ertek()
 print(c)
 
 
