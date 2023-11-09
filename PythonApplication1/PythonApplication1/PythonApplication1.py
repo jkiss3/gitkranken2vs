@@ -39,3 +39,9 @@ class Pulik(Dog):
 egy_puli = Pulik('Puli', 34)
 egy_puli.ugat1("Wid")
 egy_puli.ugat2()
+
+df = pd.read_csv("a.csv")
+print(df.head(11))
+print(df.info())
+print(df.columns)
+print(df.describe())
